@@ -19,8 +19,6 @@ var i = 0;
  
 function incrementVariable() {
   i = i + 1;
-  if(i === 20) {
-  }
 }
 
 function doWhileLoop(array) {
