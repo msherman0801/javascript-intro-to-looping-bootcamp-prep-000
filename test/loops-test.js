@@ -60,7 +60,7 @@ describe('loops', () => {
 
       const newArray = doWhileLoop(array)
 
-      expect(newArray).to.have.length.of.at.most(l - 1)
+      expect(newArray).to.have.length(l - 1)
     })
   })
 })
